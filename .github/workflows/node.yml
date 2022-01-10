@@ -38,5 +38,5 @@ jobs:
             gpg --verify codecov-linux.SHA256SUM.sig codecov-linux.SHA256SUM
             shasum -a 256 -c codecov-linux.SHA256SUM
             chmod +x codecov-linux
-            ./codecov-linux -t 18362b60-86ca-4be2-a8cb-2bc94f4f0bd2 -F admin
-            ./codecov-linux -t 18362b60-86ca-4be2-a8cb-2bc94f4f0bd2 -F everything-else
+            ./codecov-linux -t 22bc36db-321a-4662-97c1-23fdbf822fcd -F admin
+            ./codecov-linux -t 22bc36db-321a-4662-97c1-23fdbf822fcd -F everything-else
